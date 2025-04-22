@@ -1,0 +1,26 @@
+.admin-h1{
+  font-size: 4rem;
+}
+
+.dog-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 60rem;
+}
+.form-control{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-label{
+  font-size: 2rem;
+}
+
+.form-input{
+  max-width: 100%;
+  font-size: 2rem;
+}
