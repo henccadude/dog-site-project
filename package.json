@@ -1,0 +1,21 @@
+{
+  "name": "node.js-exercise",
+  "version": "1.0.0",
+  "description": "Dog breed review",
+  "license": "ISC",
+  "author": "Henrik Mulari",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
